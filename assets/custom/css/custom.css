@@ -3521,16 +3521,19 @@ a.toggle-menu {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .cookie-wrapper {
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
-    max-width: 345px;
+     position: absolute;
+    bottom: 0;
+    width: 100%;
     width: 100%;
     background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
     border-radius: 10px;
     padding: 15px 25px 22px;
     transition: right 0.3s ease;
     z-index: 999;
+    
+
+
+
 }
 .cookie-wrapper .show {
     right: 20px;
