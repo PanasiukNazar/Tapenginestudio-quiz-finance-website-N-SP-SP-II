@@ -72,7 +72,9 @@ const startStep = {
                             </p>
                         </div>
                     </div>
+                    <div style="display: flex;justify-content: center;">
                     <button class="btn btn-primary w-100 py-3 first-button" data-action="startQuiz">Comenzar</button>
+                    </div>
                 </div>
             </div>
         </div>
